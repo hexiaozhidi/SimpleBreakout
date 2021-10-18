@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{97fc34d8-3117-4676-8692-98be990b8cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="levels">
+      <UniqueIdentifier>{75011aa3-d0f9-4dc8-9760-95b76f1927c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5cea60a9-ff60-41a5-ad12-3f0c0360d26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_objects">
+      <UniqueIdentifier>{f48d799c-7310-4c7b-84f0-b78a16fc3b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderers">
+      <UniqueIdentifier>{262a6ca3-3bb3-49cc-a241-2bcd3ab551c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\sprite_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\text_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\text_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\particle_flow_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\particle_flow_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\post_processing_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\post_processing_vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sprite_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="levels\01.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\02.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\03.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\04.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\05.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\06.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\07.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\08.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\09.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\10.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\11.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\12.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\13.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\14.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\15.lvl">
+      <Filter>levels</Filter>
+    </None>
+    <None Include="levels\16.lvl">
+      <Filter>levels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Level.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionDetector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\Brick.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\GameObject.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\Paddle.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\Particle.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\ParticleFlow.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\PowerUp.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_objects\Ball.cpp">
+      <Filter>game_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderers\ParticleFlowRenderer.cpp">
+      <Filter>renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderers\PostProcessingRenderer.cpp">
+      <Filter>renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderers\SpriteRenderer.cpp">
+      <Filter>renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderers\TextRenderer.cpp">
+      <Filter>renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Palette.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Shader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ResourceManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Level.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CollisionDetector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\Ball.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\Brick.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\GameObject.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\Paddle.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\Particle.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\ParticleFlow.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_objects\PowerUp.h">
+      <Filter>game_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderers\TextRenderer.h">
+      <Filter>renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderers\ParticleFlowRenderer.h">
+      <Filter>renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderers\PostProcessingRenderer.h">
+      <Filter>renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderers\SpriteRenderer.h">
+      <Filter>renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Palette.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderCode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
